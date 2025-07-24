@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d39beea0-0e6f-4c76-ae54-efb6453d4a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/playwright_auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playwright_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/autotests-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autotests-ui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d39beea0-0e6f-4c76-ae54-efb6453d4a55" name="Changes" comment="Практика с Playwright">
+      <change afterPath="$PROJECT_DIR$/playwright_lessons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playwright_registration_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Структура-веб-страницы" />
+        <entry key="$PROJECT_DIR$" value="Введение-в-Playwright" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,10 +58,13 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.page_1.html.executor": "Run",
     "Python.playwright_auth.executor": "Run",
+    "Python.playwright_lessons.executor": "Run",
     "Python.playwright_registration.executor": "Run",
+    "Python.playwright_registration_button.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.codeium.enabled": "true",
-    "git-widget-placeholder": "Введение-в-Playwright",
+    "git-widget-placeholder": "Углубление-в-Playwright",
+    "last_opened_file_path": "C:/Users/anton/PycharmProjects/autotests-ui",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.playwright_registration">
+  <component name="RunManager" selected="Python.playwright_registration_button">
     <configuration name="page_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/autotests-ui/page_1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -92,6 +93,29 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playwright_auth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="playwright_lessons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autotests-ui" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playwright_lessons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,8 +147,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="playwright_registration_button" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="autotests-ui" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playwright_registration_button.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.playwright_registration_button" />
+        <item itemvalue="Python.playwright_lessons" />
         <item itemvalue="Python.playwright_registration" />
         <item itemvalue="Python.playwright_auth" />
         <item itemvalue="JavaScript Debug.page_1.html" />
@@ -152,8 +201,29 @@
       <workItem from="1752981258972" duration="1806000" />
       <workItem from="1753193818612" duration="670000" />
       <workItem from="1753195040076" duration="753000" />
-      <workItem from="1753233937351" duration="4708000" />
+      <workItem from="1753233937351" duration="4864000" />
+      <workItem from="1753245515956" duration="537000" />
+      <workItem from="1753314960004" duration="1712000" />
+      <workItem from="1753364745047" duration="27000" />
+      <workItem from="1753401030128" duration="339000" />
     </task>
+    <task id="LOCAL-00001" summary="Практика с Playwright">
+      <option name="closed" value="true" />
+      <created>1753240960963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1753240960963</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Практика с Playwright">
+      <option name="closed" value="true" />
+      <created>1753240971571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753240971571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,8 +240,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Практика с Playwright" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практика с Playwright" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_auth.coverage" NAME="playwright_auth Coverage Results" MODIFIED="1753236219515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_registration.coverage" NAME="playwright_registration Coverage Results" MODIFIED="1753240886871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/autotests_ui$playwright_lessons.coverage" NAME="playwright_lessons Coverage Results" MODIFIED="1753316773295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
