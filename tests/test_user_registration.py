@@ -1,5 +1,10 @@
 from playwright.sync_api import sync_playwright, expect
+import pytest
 
+
+@pytest.mark.regression
+@pytest.mark.registration
+@pytest.mark.smoke
 def test_user_registration_positive():
     """
     Тест успешной регистрации пользователя

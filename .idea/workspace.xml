@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d39beea0-0e6f-4c76-ae54-efb6453d4a55" name="Changes" comment="Практика работы с авторизацией в Playwright">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_user_authorization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_user_registration.py" afterDir="false" />
+    <list default="true" id="d39beea0-0e6f-4c76-ae54-efb6453d4a55" name="Changes" comment=" Управление автотестами c Pytest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playwright_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/playwright_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_user_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,32 +55,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.page_1.html.executor": "Run",
-    "Python tests.Python tests for test_user_registration.TestUserRegistration.executor": "Run",
-    "Python tests.Python tests for test_user_registration.TestUserRegistration.test_2.executor": "Run",
-    "Python tests.Python tests for test_user_registration.test_registration.executor": "Run",
-    "Python tests.Python tests in test_user_registration.py.executor": "Run",
-    "Python.playwright_auth.executor": "Run",
-    "Python.playwright_courses.executor": "Run",
-    "Python.playwright_lessons.executor": "Run",
-    "Python.playwright_registration.executor": "Run",
-    "Python.playwright_registration_button.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "Управление-автотестами-c-Pytest",
-    "last_opened_file_path": "C:/Users/anton/PycharmProjects/autotests-ui",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.page_1.html.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user_registration.TestUserRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user_registration.TestUserRegistration.test_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_user_registration.test_registration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_user_registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_auth.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_courses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_lessons.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_registration.executor&quot;: &quot;Run&quot;,
+    &quot;Python.playwright_registration_button.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Управление-автотестами-c-Pytest&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anton/PycharmProjects/autotests-ui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui\tests" />
@@ -217,7 +215,8 @@
       <workItem from="1753414876513" duration="24000" />
       <workItem from="1753415133299" duration="20000" />
       <workItem from="1753502430896" duration="2409000" />
-      <workItem from="1753680163382" duration="686000" />
+      <workItem from="1753680163382" duration="868000" />
+      <workItem from="1753707485944" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="Практика с Playwright">
       <option name="closed" value="true" />
@@ -251,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753403958237</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" Управление автотестами c Pytest">
+      <option name="closed" value="true" />
+      <created>1753680882291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753680882291</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +278,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Практика с Playwright" />
     <MESSAGE value="Практика работы с авторизацией в Playwright" />
-    <option name="LAST_COMMIT_MESSAGE" value="Практика работы с авторизацией в Playwright" />
+    <MESSAGE value=" Управление автотестами c Pytest" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Управление автотестами c Pytest" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_registration_button.coverage" NAME="playwright_registration_button Coverage Results" MODIFIED="1753401370634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

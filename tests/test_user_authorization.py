@@ -1,6 +1,10 @@
 from playwright.sync_api import sync_playwright, expect
+import pytest
 
 
+@pytest.mark.smoke
+@pytest.mark.regression
+@pytest.mark.authorization
 def test_authorization_bad_login_password():
     with sync_playwright() as playwright:
         """
