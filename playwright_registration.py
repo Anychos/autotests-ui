@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright, expect
 
+
 with sync_playwright() as playwright:
     """
     инициализация браузера
@@ -21,6 +22,7 @@ with sync_playwright() as playwright:
     registration_button.click()  # нажатие на кнопку
 
     context.storage_state(path="storage_state.json") # сохранение состояния браузера
+
 
 with sync_playwright() as playwright:
     """
