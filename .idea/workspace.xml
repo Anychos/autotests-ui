@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d39beea0-0e6f-4c76-ae54-efb6453d4a55" name="Changes" comment=" Управление автотестами c Pytest">
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_user_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_authorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_user_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_registration.py" afterDir="false" />
@@ -55,62 +55,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.page_1.html.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_user_registration.TestUserRegistration.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_user_registration.TestUserRegistration.test_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_user_registration.test_registration.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_user_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playwright_auth.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playwright_courses.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playwright_lessons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playwright_registration.executor&quot;: &quot;Run&quot;,
-    &quot;Python.playwright_registration_button.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Управление-автотестами-c-Pytest&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anton/PycharmProjects/autotests-ui&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.page_1.html.executor": "Run",
+    "Python tests.Python tests for test_courses.TestCourses.executor": "Run",
+    "Python tests.Python tests for test_courses.test_empty_courses_list.executor": "Run",
+    "Python tests.Python tests for test_courses.test_empty_courses_list_2.executor": "Run",
+    "Python tests.Python tests for test_courses.test_empty_courses_list_3.executor": "Run",
+    "Python tests.Python tests for test_open_merch.test_open_merch.executor": "Run",
+    "Python tests.Python tests for test_user_authorization.test_authorization_bad_login_password.executor": "Run",
+    "Python tests.Python tests for test_user_registration.TestUserRegistration.executor": "Run",
+    "Python tests.Python tests for test_user_registration.TestUserRegistration.test_2.executor": "Run",
+    "Python tests.Python tests for test_user_registration.test_registration.executor": "Run",
+    "Python tests.Python tests for test_user_registration.test_user_registration_positive.executor": "Run",
+    "Python tests.Python tests in test_open_merch.py.executor": "Run",
+    "Python tests.Python tests in test_user_authorization.py.executor": "Run",
+    "Python tests.Python tests in test_user_registration.py.executor": "Run",
+    "Python.playwright_auth.executor": "Run",
+    "Python.playwright_courses.executor": "Run",
+    "Python.playwright_lessons.executor": "Run",
+    "Python.playwright_registration.executor": "Run",
+    "Python.playwright_registration_button.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "Управление-автотестами-c-Pytest",
+    "last_opened_file_path": "C:/Users/anton/PycharmProjects/autotests-ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_user_registration.TestUserRegistration">
-    <configuration name="playwright_courses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="autotests-ui" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playwright_courses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_user_registration.TestUserRegistration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_courses.TestCourses">
+    <configuration name="Python tests for test_courses.TestCourses" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,11 +108,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_registration.TestUserRegistration&quot;" />
+      <option name="_new_target" value="&quot;test_courses.TestCourses&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_user_registration.TestUserRegistration.test_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_courses.test_empty_courses_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +124,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_registration.TestUserRegistration.test_2&quot;" />
+      <option name="_new_target" value="&quot;test_courses.test_empty_courses_list&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_user_registration.test_registration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_courses.test_empty_courses_list_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,11 +140,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_user_registration.test_registration&quot;" />
+      <option name="_new_target" value="&quot;test_courses.test_empty_courses_list_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_user_registration.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_courses.test_empty_courses_list_3" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,17 +156,33 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_user_registration.py&quot;" />
+      <option name="_new_target" value="&quot;test_courses.test_empty_courses_list_3&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_user_authorization.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="autotests-ui" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_user_authorization.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_user_registration.TestUserRegistration" />
-        <item itemvalue="Python tests.Python tests for test_user_registration.TestUserRegistration.test_2" />
-        <item itemvalue="Python tests.Python tests in test_user_registration.py" />
-        <item itemvalue="Python tests.Python tests for test_user_registration.test_registration" />
-        <item itemvalue="Python.playwright_courses" />
+        <item itemvalue="Python tests.Python tests for test_courses.TestCourses" />
+        <item itemvalue="Python tests.Python tests for test_courses.test_empty_courses_list_3" />
+        <item itemvalue="Python tests.Python tests for test_courses.test_empty_courses_list_2" />
+        <item itemvalue="Python tests.Python tests for test_courses.test_empty_courses_list" />
+        <item itemvalue="Python tests.Python tests in test_user_authorization.py" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +218,12 @@
       <workItem from="1753415133299" duration="20000" />
       <workItem from="1753502430896" duration="2409000" />
       <workItem from="1753680163382" duration="868000" />
-      <workItem from="1753707485944" duration="2867000" />
+      <workItem from="1753707485944" duration="2955000" />
+      <workItem from="1753746468085" duration="2307000" />
+      <workItem from="1753759458773" duration="996000" />
+      <workItem from="1753784204391" duration="912000" />
+      <workItem from="1753797652902" duration="7000" />
+      <workItem from="1753837835370" duration="4879000" />
     </task>
     <task id="LOCAL-00001" summary="Практика с Playwright">
       <option name="closed" value="true" />
@@ -258,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753680882291</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" Управление автотестами c Pytest">
+      <option name="closed" value="true" />
+      <created>1753710389362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753710389362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +300,7 @@
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_registration_button.coverage" NAME="playwright_registration_button Coverage Results" MODIFIED="1753401370634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_auth.coverage" NAME="playwright_auth Coverage Results" MODIFIED="1753236219515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_courses.coverage" NAME="playwright_courses Coverage Results" MODIFIED="1753403927597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/autotests_ui$.coverage" NAME=" Coverage Results" MODIFIED="1753503315981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/autotests_ui$.coverage" NAME=" Coverage Results" MODIFIED="1753842128863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_registration.coverage" NAME="playwright_registration Coverage Results" MODIFIED="1753402880625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_lessons.coverage" NAME="playwright_lessons Coverage Results" MODIFIED="1753316773295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
