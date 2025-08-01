@@ -1,4 +1,4 @@
-from playwright.sync_api import sync_playwright, expect, Page
+from playwright.sync_api import expect, Page
 import pytest
 
 
@@ -22,4 +22,4 @@ def test_user_registration_positive(start_chrome: Page):
     registration_button.click()  # нажатие на кнопку
 
     dashboard_title = start_chrome.get_by_test_id("dashboard-toolbar-title-text") # поиск заголовка dashboard
-    expect(dashboard_title).to_be_visible() # ожидание появления элемента
+    expect(dashboard_title).to_have_text("Dashboard") # ожидание появления элемента

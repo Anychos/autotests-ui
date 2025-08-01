@@ -1,17 +1,21 @@
-from playwright.sync_api import sync_playwright, expect, Page
+from playwright.sync_api import expect, Page
 import pytest
 
 
 @pytest.mark.smoke
 @pytest.mark.regression
 @pytest.mark.authorization
-def test_authorization_bad_login_password(start_chrome: Page):
+@pytest.mark.parametrize("email, password", [
+        ("user.name@gmail.com", "password"),
+        ("user.name@gmail.com", "  "),
+        ("  ", "password")])
+def test_authorization_bad_login_password(start_chrome: Page, email: str, password: str):
         start_chrome.goto("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/login") # переход на сайт
 
         email_input = start_chrome.get_by_test_id("login-form-email-input").locator("input") # поиск кнопки login по data-testid
-        email_input.fill("test@mail.ru") # заполнение поля email
+        email_input.fill(email) # заполнение поля email
         password_input = start_chrome.get_by_test_id("login-form-password-input").locator("input")  # поиск поля password
-        password_input.fill("qwerty123")  # заполнение поля password
+        password_input.fill(password)  # заполнение поля password
 
         login_button = start_chrome.get_by_test_id("login-page-login-button") # поиск кнопки login
         login_button.click()  # нажатие на кнопку
