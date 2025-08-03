@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d39beea0-0e6f-4c76-ae54-efb6453d4a55" name="Changes" comment="Практика работы с pytest фикстурами">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/browsers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_params.py" afterDir="false" />
+    <list default="true" id="d39beea0-0e6f-4c76-ae54-efb6453d4a55" name="Changes" comment="Практика работы с pytest параметризацией">
+      <change afterPath="$PROJECT_DIR$/fixtures/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dashboard_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browser-state.json" beforeDir="false" afterPath="$PROJECT_DIR$/browser-state.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_user_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_authorization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_user_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_user_registration.py" afterDir="false" />
     </list>
@@ -101,7 +101,7 @@
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_user_authorization.test_authorization_bad_login_password">
+  <component name="RunManager" selected="Python tests.Python tests for test_user_registration.test_user_registration_positive">
     <configuration name="Python tests for test_courses.TestCourses" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="autotests-ui" />
       <option name="ENV_FILES" value="" />
@@ -184,9 +184,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_user_registration.test_user_registration_positive" />
         <item itemvalue="Python tests.Python tests for test_user_authorization.test_authorization_bad_login_password" />
         <item itemvalue="Python tests.Python tests for test_params.test_params" />
-        <item itemvalue="Python tests.Python tests for test_user_registration.test_user_registration_positive" />
         <item itemvalue="Python tests.Python tests for test_courses.TestCourses" />
         <item itemvalue="Python tests.Python tests for test_courses.test_empty_courses_list_3" />
       </list>
@@ -236,7 +236,13 @@
       <workItem from="1753849114161" duration="36000" />
       <workItem from="1753933349111" duration="670000" />
       <workItem from="1753936557516" duration="1467000" />
-      <workItem from="1754015591619" duration="719000" />
+      <workItem from="1754015591619" duration="3772000" />
+      <workItem from="1754022678303" duration="612000" />
+      <workItem from="1754023301785" duration="26000" />
+      <workItem from="1754023475233" duration="1007000" />
+      <workItem from="1754111250723" duration="35000" />
+      <workItem from="1754127714635" duration="6814000" />
+      <workItem from="1754193850453" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="Практика с Playwright">
       <option name="closed" value="true" />
@@ -310,7 +316,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753842868269</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Практика работы с pytest параметризацией">
+      <option name="closed" value="true" />
+      <created>1754016464688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754016464688</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Практика работы с pytest параметризацией">
+      <option name="closed" value="true" />
+      <created>1754016510723</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754016510723</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,13 +354,14 @@
     <MESSAGE value="Практика работы с авторизацией в Playwright" />
     <MESSAGE value=" Управление автотестами c Pytest" />
     <MESSAGE value="Практика работы с pytest фикстурами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Практика работы с pytest фикстурами" />
+    <MESSAGE value="Практика работы с pytest параметризацией" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практика работы с pytest параметризацией" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_registration_button.coverage" NAME="playwright_registration_button Coverage Results" MODIFIED="1753401370634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_auth.coverage" NAME="playwright_auth Coverage Results" MODIFIED="1753236219515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_courses.coverage" NAME="playwright_courses Coverage Results" MODIFIED="1753403927597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/autotests_ui$.coverage" NAME=" Coverage Results" MODIFIED="1754016144117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/autotests_ui$.coverage" NAME=" Coverage Results" MODIFIED="1754194713386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_registration.coverage" NAME="playwright_registration Coverage Results" MODIFIED="1753402880625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/autotests_ui$playwright_lessons.coverage" NAME="playwright_lessons Coverage Results" MODIFIED="1753316773295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
