@@ -35,7 +35,7 @@ def test_create_course(create_course_page: CreateCoursePage, courses_list_page: 
     create_course_page.check_visible_exercises_title()
     create_course_page.check_visible_create_exercise_button()
     create_course_page.check_visible_exercises_empty_view()
-    create_course_page.upload_preview_image("C:\\Users\\anton\PycharmProjects\\autotests-ui\\testdata\\files\\image.jpg")
+    create_course_page.upload_preview_image("./testdata/files/image.png")
     create_course_page.check_visible_image_upload_view()
     create_course_page.fill_create_course_form("Playwright", "2 weeks", "Playwright", "100", "10")
     create_course_page.click_create_course_button()
