@@ -1,26 +1,20 @@
 import pytest
-from playwright.sync_api import expect
 from pages.courses_list_page import CoursesListPage
 from pages.create_course_page import CreateCoursePage
 
 
 @pytest.mark.regression
 @pytest.mark.courses
-def test_empty_courses_list(chromium_page_with_state):
+def test_empty_courses_list(courses_list_page_with_state: CoursesListPage):
     """
     Тест пустого списка курсов
     """
-    chromium_page_with_state.goto("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/courses")  # переход на сайт
-
-    courses_page_title = chromium_page_with_state.locator(
-        '//h6[@data-testid="courses-list-toolbar-title-text"]')  # поиск заголовка страницы
-    expect(courses_page_title).to_have_text("Courses")
-    print("Заголовок страницы 'Courses' найден")
-
-    courses_page_no_results = chromium_page_with_state.locator(
-        '//h6[@data-testid="courses-list-empty-view-title-text"]')  # поиск заголовка страницы
-    expect(courses_page_no_results).to_have_text("There is no results")
-    print("Заголовок пустого блока 'There is no results' найден")
+    courses_list_page_with_state.open_url("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/courses")
+    courses_list_page_with_state.check_visible_courses_title()
+    courses_list_page_with_state.check_visible_create_course_button()
+    courses_list_page_with_state.check_visible_empty_view()
+    courses_list_page_with_state.navbar.check_visible("username")
+    courses_list_page_with_state.sidebar.check_visible()
 
 def test_create_course(create_course_page: CreateCoursePage, courses_list_page: CoursesListPage):
     """
