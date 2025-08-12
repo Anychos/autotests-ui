@@ -4,48 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Autotests_UI_Base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/authentication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/authentication/login_form_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/authentication/registration_form_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/base_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/charts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/charts/chart_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/create_course_form_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/dashboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/navbar_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/sidebar_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/browsers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fixtures/pages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/courses_list_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/create_course_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/dashboard_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_data/files/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_authorization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
+    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="Практикуемся в написании компонентов с использованием паттерна PageComponent">
+      <change afterPath="$PROJECT_DIR$/components/courses/course_view_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/views/empty_view_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/views/image_upload_widget_component.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/Icon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/Image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/link.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elements/text_area.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/authentication/login_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/login_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/authentication/registration_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/registration_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navbar_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/courses_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses_list_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/create_course_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/create_course_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +52,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Anychos"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Anychos/autotests-ui.git",
+    "accountId": "6fef36dd-e327-470a-b8cb-04e1547afcf1"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -73,49 +75,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_authorization.test_wrong_email_or_password_authorization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_courses.test_create_course.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_courses.test_empty_courses_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_dashboard.test_dashboard_displaying.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_registration.test_successful_registration.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_authorization.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_courses.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anton/PycharmProjects/autotests-ui&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_authorization.test_wrong_email_or_password_authorization.executor": "Run",
+    "Python tests.Python tests for test_courses.test_create_course.executor": "Run",
+    "Python tests.Python tests for test_courses.test_empty_courses_list.executor": "Run",
+    "Python tests.Python tests for test_dashboard.test_dashboard_displaying.executor": "Run",
+    "Python tests.Python tests for test_registration.test_successful_registration.executor": "Run",
+    "Python tests.Python tests in test_authorization.py.executor": "Run",
+    "Python tests.Python tests in test_courses.py.executor": "Run",
+    "Python tests.Python tests in test_dashboard.py.executor": "Run",
+    "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python.dashboard_page.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/anton/PycharmProjects/autotests-ui_old",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\PycharmProjects\autotests-ui\components\views" />
+      <recent name="C:\Users\anton\PycharmProjects\autotests-ui\components\courses" />
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui-3\test_data\files" />
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui-3\test_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_dashboard.test_dashboard_displaying">
-    <configuration name="Python tests for test_authorization.test_wrong_email_or_password_authorization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_dashboard.py">
+    <configuration name="dashboard_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Autotests_UI_Base" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_authorization.test_wrong_email_or_password_authorization&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/dashboard_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_courses.test_empty_courses_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -131,38 +144,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_courses.test_empty_courses_list&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_dashboard.test_dashboard_displaying" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Autotests_UI_Base" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_dashboard.test_dashboard_displaying&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_registration.test_successful_registration" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Autotests_UI_Base" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_registration.test_successful_registration&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -182,13 +163,45 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_dashboard.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Autotests_UI_Base" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_dashboard.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_registration.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Autotests_UI_Base" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_registration.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_dashboard.test_dashboard_displaying" />
+        <item itemvalue="Python tests.Python tests in test_dashboard.py" />
+        <item itemvalue="Python.dashboard_page" />
         <item itemvalue="Python tests.Python tests for test_courses.test_empty_courses_list" />
+        <item itemvalue="Python tests.Python tests in test_registration.py" />
         <item itemvalue="Python tests.Python tests in test_authorization.py" />
-        <item itemvalue="Python tests.Python tests for test_registration.test_successful_registration" />
-        <item itemvalue="Python tests.Python tests for test_authorization.test_wrong_email_or_password_authorization" />
       </list>
     </recent_temporary>
   </component>
@@ -210,13 +223,29 @@
       <updated>1754872595681</updated>
       <workItem from="1754872597241" duration="636000" />
       <workItem from="1754884170610" duration="6531000" />
+      <workItem from="1754892126612" duration="12900000" />
     </task>
+    <task id="LOCAL-00001" summary="Практикуемся в написании компонентов с использованием паттерна PageComponent">
+      <option name="closed" value="true" />
+      <created>1754892149784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754892149784</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Практикуемся в написании компонентов с использованием паттерна PageComponent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практикуемся в написании компонентов с использованием паттерна PageComponent" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/autotests_ui$dashboard_page.coverage" NAME="dashboard_page Coverage Results" MODIFIED="1754974683828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
     <SUITE FILE_PATH="coverage/autotests_ui_3$.coverage" NAME=" Coverage Results" MODIFIED="1754891964382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/autotests_ui$.coverage" NAME=" Coverage Results" MODIFIED="1754974691510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
