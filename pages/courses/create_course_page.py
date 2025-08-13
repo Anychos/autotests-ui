@@ -1,4 +1,4 @@
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Page
 from components.views.image_upload_widget_component import ImageUploadWidgetComponent
 from components.views.empty_view_component import EmptyViewComponent
 from pages.base_page import BasePage

@@ -1,4 +1,4 @@
-from playwright.sync_api import Page, expect
+from playwright.sync_api import Page
 from components.courses.course_view_component import CourseViewComponent
 from components.courses.course_view_menu_component import CourseViewMenuComponent
 from components.views.empty_view_component import EmptyViewComponent
