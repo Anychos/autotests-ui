@@ -1,0 +1,11 @@
+параметры для запуска теста с сохранением результатов в Allure
+--alluredir=./allure-results
+
+генерация отчета по результатам тестирования
+allure generate ./allure-results --output=./allure-report
+
+открытие динамического сгенерированного отчета в браузере
+allure serve ./allure-results
+
+открытие статического сгенерированного отчета в браузере
+allure open ./allure-report

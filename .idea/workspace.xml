@@ -4,27 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="Практикуемся в применении Page Factory">
-      <change afterPath="$PROJECT_DIR$/pages/authentication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/dashboard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/authentication/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/dashboard/__init__.py" afterDir="false" />
+    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="Практикуемся в написании автотестов с использованием Page Object, Page Component, Page Factory">
+      <change afterPath="$PROJECT_DIR$/allure commands" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/epics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/parent_suites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/stories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/sub_suites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/suites.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/tags.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/browsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/browsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/courses_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses/courses_list_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/create_course_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses/create_course_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/dashboard_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/dashboard/dashboard_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authentication/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authentication/registration_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dashboard/test_dashboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/authentication/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/authentication/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/courses/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/dashboard/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dashboard/test_dashboard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,18 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Anychos"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Anychos&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Anychos/autotests-ui.git",
-    "accountId": "6fef36dd-e327-470a-b8cb-04e1547afcf1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Anychos/autotests-ui.git&quot;,
+    &quot;accountId&quot;: &quot;6fef36dd-e327-470a-b8cb-04e1547afcf1&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -64,40 +59,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_authorization.TestAuthorization.test_navigate_from_authorization_to_registration.executor": "Run",
-    "Python tests.Python tests for test_authorization.TestAuthorization.test_successful_authorization.executor": "Run",
-    "Python tests.Python tests for test_authorization.test_wrong_email_or_password_authorization.executor": "Run",
-    "Python tests.Python tests for test_courses.TestCourses.test_edit_course.executor": "Run",
-    "Python tests.Python tests for test_courses.test_create_course.executor": "Run",
-    "Python tests.Python tests for test_courses.test_empty_courses_list.executor": "Run",
-    "Python tests.Python tests for test_dashboard.test_dashboard_displaying.executor": "Run",
-    "Python tests.Python tests for test_registration.test_successful_registration.executor": "Run",
-    "Python tests.Python tests in test_authorization.py.executor": "Run",
-    "Python tests.Python tests in test_courses.py.executor": "Run",
-    "Python tests.Python tests in test_dashboard.py.executor": "Run",
-    "Python tests.Python tests in test_registration.py.executor": "Run",
-    "Python.dashboard_page.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/anton/PycharmProjects/autotests-ui_old",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_authorization.TestAuthorization.test_navigate_from_authorization_to_registration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_authorization.TestAuthorization.test_successful_authorization.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_authorization.test_wrong_email_or_password_authorization.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_courses.TestCourses.test_edit_course.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_courses.test_create_course.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_courses.test_empty_courses_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_dashboard.test_dashboard_displaying.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_registration.test_successful_registration.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_authorization.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_courses.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_dashboard.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dashboard_page.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/anton/PycharmProjects/autotests-ui_old&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\PycharmProjects\autotests-ui" />
+      <recent name="C:\Users\anton\PycharmProjects\autotests-ui\allure" />
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui\tests\dashboard" />
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui\tests\courses" />
       <recent name="C:\Users\anton\PycharmProjects\autotests-ui\tests\authentication" />
-      <recent name="C:\Users\anton\PycharmProjects\autotests-ui\pages\authentication" />
-      <recent name="C:\Users\anton\PycharmProjects\autotests-ui\pages\dashboard" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for test_courses.TestCourses.test_edit_course">
@@ -216,7 +211,8 @@
       <updated>1754872595681</updated>
       <workItem from="1754872597241" duration="636000" />
       <workItem from="1754884170610" duration="6531000" />
-      <workItem from="1754892126612" duration="24224000" />
+      <workItem from="1754892126612" duration="34138000" />
+      <workItem from="1755139352946" duration="4652000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в написании компонентов с использованием паттерна PageComponent">
       <option name="closed" value="true" />
@@ -266,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754978012864</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Практикуемся в написании автотестов с использованием Page Object, Page Component, Page Factory">
+      <option name="closed" value="true" />
+      <created>1755057994381</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755057994381</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +280,8 @@
     <MESSAGE value="Практикуемся в написании компонентов с использованием паттерна PageComponent" />
     <MESSAGE value="Практика работы с Page Factory" />
     <MESSAGE value="Практикуемся в применении Page Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Практикуемся в применении Page Factory" />
+    <MESSAGE value="Практикуемся в написании автотестов с использованием Page Object, Page Component, Page Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практикуемся в написании автотестов с использованием Page Object, Page Component, Page Factory" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/autotests_ui$dashboard_page.coverage" NAME="dashboard_page Coverage Results" MODIFIED="1754974683828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
