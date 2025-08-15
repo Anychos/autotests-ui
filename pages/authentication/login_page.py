@@ -5,6 +5,7 @@ from components.authentication.login_form_component import LoginFormComponent
 from elements.text import Text
 from elements.button import Button
 from elements.link import Link
+import allure
 
 
 class LoginPage(BasePage):
@@ -19,14 +20,11 @@ class LoginPage(BasePage):
     def click_login_button(self):
         self.login_button.click()
 
-    def click_registration_link(self):
-        self.registration_link.click()
-
+    @allure.step("Проверка видимости сообщения о неправильном логине или пароле")
     def check_visible_wrong_email_or_password_alert(self):
         self.wrong_email_or_password_alert.check_visible()
         self.wrong_email_or_password_alert.check_text('Wrong email or password')
 
     def click_registration_link(self):
         self.registration_link.click()
-        # Добавили проверку
         self.check_current_url(re.compile(".*/#/auth/registration"))

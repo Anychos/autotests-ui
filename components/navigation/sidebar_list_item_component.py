@@ -4,6 +4,7 @@ from components.base_component import BaseComponent
 from elements.Icon import Icon
 from elements.button import Button
 from elements.text import Text
+import allure
 
 
 class SidebarListItemComponent(BaseComponent):
@@ -14,6 +15,7 @@ class SidebarListItemComponent(BaseComponent):
         self.title = Text(page, f'{identifier}-drawer-list-item-title-text', 'Sidebar list item title')
         self.button = Button(page, f'{identifier}-drawer-list-item-button', 'Sidebar list item button')
 
+    @allure.step('Проверка видимости элемента "{title}" в сайдбаре')
     def check_visible(self, title: str):
         self.icon.check_visible()
 

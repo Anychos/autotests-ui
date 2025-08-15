@@ -4,22 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="Практикуемся в написании автотестов с использованием Page Object, Page Component, Page Factory">
-      <change afterPath="$PROJECT_DIR$/allure commands" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/epics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/parent_suites.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/stories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/sub_suites.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/suites.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/allure/tags.py" afterDir="false" />
+    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="Практическая работа с Allure аннотациями">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/authentication/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/authentication/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/courses/test_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/courses/test_courses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/dashboard/test_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/dashboard/test_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/authentication/login_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/login_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/authentication/registration_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/authentication/registration_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/charts/chart_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/charts/chart_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/course_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/course_view_menu_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/courses_list_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercise_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_exercises_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_form_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_form_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/courses/create_course_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/dashboard/dashboard_toolbar_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/navbar_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/navbar_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/navigation/sidebar_list_item_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/views/empty_view_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/views/empty_view_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/views/image_upload_widget_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/views/image_upload_widget_component.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Icon.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Icon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/base_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/file_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/link.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/link.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elements/text_area.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/text_area.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/authentication/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/authentication/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +225,7 @@
       <workItem from="1754872597241" duration="636000" />
       <workItem from="1754884170610" duration="6531000" />
       <workItem from="1754892126612" duration="34138000" />
-      <workItem from="1755139352946" duration="4652000" />
+      <workItem from="1755139352946" duration="15462000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в написании компонентов с использованием паттерна PageComponent">
       <option name="closed" value="true" />
@@ -270,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755057994381</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Практическая работа с Allure аннотациями">
+      <option name="closed" value="true" />
+      <created>1755145481054</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755145481054</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +302,8 @@
     <MESSAGE value="Практика работы с Page Factory" />
     <MESSAGE value="Практикуемся в применении Page Factory" />
     <MESSAGE value="Практикуемся в написании автотестов с использованием Page Object, Page Component, Page Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Практикуемся в написании автотестов с использованием Page Object, Page Component, Page Factory" />
+    <MESSAGE value="Практическая работа с Allure аннотациями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практическая работа с Allure аннотациями" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/autotests_ui$dashboard_page.coverage" NAME="dashboard_page Coverage Results" MODIFIED="1754974683828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />

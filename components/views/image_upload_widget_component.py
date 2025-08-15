@@ -1,5 +1,5 @@
-from playwright.sync_api import Page, expect
-
+from playwright.sync_api import Page
+import allure
 from components.base_component import BaseComponent
 from components.views.empty_view_component import EmptyViewComponent
 from elements.Icon import Icon
@@ -28,6 +28,7 @@ class ImageUploadWidgetComponent(BaseComponent):
         self.remove_button = Button(page, f'{identifier}-image-upload-widget-remove-button', 'Remove button')
         self.upload_input = FileInput(page, f'{identifier}-image-upload-widget-input', 'File input')
 
+    @allure.step('Проверка видимости виджета загрузки изображения')
     def check_visible(self, is_image_uploaded: bool = False):
         self.image_upload_info_icon.check_visible()
         self.image_upload_info_title.check_visible()
@@ -53,5 +54,6 @@ class ImageUploadWidgetComponent(BaseComponent):
     def click_remove_image_button(self):
         self.remove_button.click()
 
+    @allure.step('Загрузка изображения')
     def upload_preview_image(self, file: str):
         self.upload_input.set_file(file)

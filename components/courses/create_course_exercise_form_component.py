@@ -1,5 +1,5 @@
 from playwright.sync_api import Page
-
+import allure
 from components.base_component import BaseComponent, expect
 from elements.button import Button
 from elements.input import Input
@@ -18,6 +18,7 @@ class CreateCourseExerciseFormComponent(BaseComponent):
     def click_delete_button(self, index: int):
         self.delete_button.click(index=index)
 
+    @allure.step('Проверка видимости формы создания упражнения с индексом {index}')
     def check_visible(self, index: int, title: str, description: str):
         self.subtitle.check_visible(index=index)
         self.subtitle.check_text(f"#{index + 1} Exercise", index=index)
@@ -28,6 +29,7 @@ class CreateCourseExerciseFormComponent(BaseComponent):
         self.description_input.check_visible(index=index)
         self.description_input.check_value(description, index=index)
 
+    @allure.step('Заполнение формы создания упражнения с индексом {index}')
     def fill(self, index: int, title: str, description: str):
         self.title_input.fill(title, index=index)
         self.title_input.check_value(title, index=index)
