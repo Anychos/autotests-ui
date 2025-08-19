@@ -4,23 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="Практика работы с настройками">
-      <change afterPath="$PROJECT_DIR$/tools/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/playwright/mocks.py" afterDir="false" />
+    <list default="true" id="97210041-f965-446d-8f61-ea302e1b9390" name="Changes" comment="Практика работы с логированием">
+      <change afterPath="$PROJECT_DIR$/fixtures/allure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/allure/environment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure commands" beforeDir="false" afterPath="$PROJECT_DIR$/commands for start tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/base_component.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/base_component.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/base_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/base_element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/button.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/file_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/file_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elements/text_area.py" beforeDir="false" afterPath="$PROJECT_DIR$/elements/text_area.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/browsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/browsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixtures/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixtures/pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/authentication/test_authorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_authorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/authentication/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/authentication/test_registration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/playwright/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/playwright/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +222,7 @@
       <workItem from="1754892126612" duration="34138000" />
       <workItem from="1755139352946" duration="19984000" />
       <workItem from="1755424836784" duration="6291000" />
-      <workItem from="1755485237575" duration="14029000" />
+      <workItem from="1755485237575" duration="15173000" />
     </task>
     <task id="LOCAL-00001" summary="Практикуемся в написании компонентов с использованием паттерна PageComponent">
       <option name="closed" value="true" />
@@ -315,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755492055246</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Практика работы с логированием">
+      <option name="closed" value="true" />
+      <created>1755578949342</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755578949342</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +326,8 @@
     <MESSAGE value="Практическая работа с Allure аннотациями" />
     <MESSAGE value="Практика работы с allure.step" />
     <MESSAGE value="Практика работы с настройками" />
-    <option name="LAST_COMMIT_MESSAGE" value="Практика работы с настройками" />
+    <MESSAGE value="Практика работы с логированием" />
+    <option name="LAST_COMMIT_MESSAGE" value="Практика работы с логированием" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/autotests_ui$dashboard_page.coverage" NAME="dashboard_page Coverage Results" MODIFIED="1754974683828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
