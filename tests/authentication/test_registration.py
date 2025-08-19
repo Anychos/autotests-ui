@@ -22,6 +22,7 @@ from tools.routes import AppRoute
 @allure.suite(AllureSuite.AUTHENTICATION)
 @allure.sub_suite(AllureSubSuite.REGISTRATION)
 class TestRegistration:
+    @pytest.mark.xdist_group(name='authorization')
     @allure.title('Регистрация с валидными данными')
     @allure.severity(Severity.BLOCKER)
     def test_successful_registration(self, dashboard_page: DashboardPage, registration_page: RegistrationPage):
