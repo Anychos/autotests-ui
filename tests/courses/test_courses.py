@@ -22,7 +22,7 @@ from tools.routes import AppRoute
 @allure.suite(AllureSuite.COURSES)
 @allure.sub_suite(AllureSubSuite.COURSES)
 class TestCourses:
-    @allure.title('Создание курса')
+    @allure.title('Создание курса ')
     @allure.severity(Severity.BLOCKER)
     def test_create_course(self, courses_list_page: CoursesListPage, create_course_page: CreateCoursePage):
         create_course_page.visit(AppRoute.CREATE_COURSE)
