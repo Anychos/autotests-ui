@@ -1,0 +1,183 @@
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Create course title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-create-course-button" с индексом 0
+INFO     BUTTON:button.py:27 Проверка что элемент "button Create course button" недоступен для взаимодействия
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Empty view icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Empty view title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Empty view description"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Image upload info icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Image upload info title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Image upload info description"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-upload-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Upload button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Empty view icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Empty view title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Empty view description"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-empty-view-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Title" соответствует ожидаемому ""
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Estimated time"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Estimated time" соответствует ожидаемому ""
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text area Description"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     TEXT_AREA:text_area.py:30 Проверка что значение поля "text area Description" соответствует ожидаемому ""
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Max score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Max score" соответствует ожидаемому "0"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Min score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Min score" соответствует ожидаемому "0"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-input" с индексом 0
+INFO     FILE_INPUT:file_input.py:18 Загрузка файла "test_data/files/image.jpg" в поле "file input File input"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Image upload info icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Image upload info title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Image upload info description"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-info-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-upload-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Upload button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-remove-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Remove button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-preview-image-upload-widget-preview-image" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "image Preview image"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Title" значением "Playwright"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Title" соответствует ожидаемому "Playwright"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Estimated time" значением "2 weeks"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Estimated time" соответствует ожидаемому "2 weeks"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     TEXT_AREA:text_area.py:22 Заполнение поля "text area Description" значением "Playwright"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     TEXT_AREA:text_area.py:30 Проверка что значение поля "text area Description" соответствует ожидаемому "Playwright"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Max score" значением "100"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Max score" соответствует ожидаемому "100"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Min score" значением "10"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Min score" соответствует ожидаемому "10"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Title" соответствует ожидаемому "Playwright"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Estimated time"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Estimated time" соответствует ожидаемому "2 weeks"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text area Description"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     TEXT_AREA:text_area.py:30 Проверка что значение поля "text area Description" соответствует ожидаемому "Playwright"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Max score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Max score" соответствует ожидаемому "100"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Min score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Min score" соответствует ожидаемому "10"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Create course title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-create-course-button" с индексом 0
+INFO     BUTTON:button.py:19 Проверка что элемент "button Create course button" доступен для взаимодействия
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-box-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Exercises toolbar title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-box-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-box-toolbar-create-exercise-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Create exercise button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-empty-view-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Empty view icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-empty-view-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Empty view title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-empty-view-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-empty-view-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Empty view description"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-exercises-empty-view-description-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-create-course-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:31 Клик по элементу "button Create course button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-preview-image" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "image Course image"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Course title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-max-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Max score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-max-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-min-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Min score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-min-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-estimated-time-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Estimated time"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-estimated-time-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-view-menu-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:31 Клик по элементу "button Course view menu button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-view-edit-menu-item" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Course menu edit button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-view-edit-menu-item" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:31 Клик по элементу "button Course menu edit button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Title" значением "Test"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-title-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Title" соответствует ожидаемому "Test"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Estimated time" значением "2 days"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-estimated-time-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Estimated time" соответствует ожидаемому "2 days"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     TEXT_AREA:text_area.py:22 Заполнение поля "text area Description" значением "Test"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-description-input" с индексом 0
+INFO     TEXT_AREA:text_area.py:30 Проверка что значение поля "text area Description" соответствует ожидаемому "Test"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Max score" значением "1000"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-max-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Max score" соответствует ожидаемому "1000"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Min score" значением "100"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-form-min-score-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Min score" соответствует ожидаемому "100"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "create-course-toolbar-create-course-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:31 Клик по элементу "button Create course button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-preview-image" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "image Course image"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Course title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-max-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Max score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-max-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-min-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Min score"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-min-score-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-estimated-time-info-row-view-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Estimated time"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "course-estimated-time-info-row-view-text" с индексом 0
