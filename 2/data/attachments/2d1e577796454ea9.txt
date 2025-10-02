@@ -1,0 +1,50 @@
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "navigation-navbar-app-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Navbar app title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "navigation-navbar-app-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "navigation-navbar-welcome-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Navbar welcome title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "navigation-navbar-welcome-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "logout-drawer-list-item-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Sidebar list item icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "logout-drawer-list-item-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Sidebar list item title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "logout-drawer-list-item-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "logout-drawer-list-item-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Sidebar list item button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "courses-drawer-list-item-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Sidebar list item icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "courses-drawer-list-item-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Sidebar list item title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "courses-drawer-list-item-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "courses-drawer-list-item-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Sidebar list item button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-drawer-list-item-icon" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "icon Sidebar list item icon"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-drawer-list-item-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Sidebar list item title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-drawer-list-item-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-drawer-list-item-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "button Sidebar list item button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Dashboard title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "scores-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Chart title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "scores-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "scores-scatter-chart" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "image Chart image"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "courses-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Chart title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "courses-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "courses-pie-chart" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "image Chart image"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "students-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Chart title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "students-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "students-bar-chart" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "image Chart image"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "activities-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Chart title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "activities-widget-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "activities-line-chart" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "image Chart image"

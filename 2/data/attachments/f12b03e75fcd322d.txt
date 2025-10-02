@@ -1,0 +1,29 @@
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-email-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Email" значением "user.name@gmail.com"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-email-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Email" соответствует ожидаемому "user.name@gmail.com"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-username-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Username" значением "username"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-username-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Username" соответствует ожидаемому "username"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-password-input" с индексом 0
+INFO     INPUT:input.py:22 Заполнение поля "input Password" значением "password"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-password-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Password" соответствует ожидаемому "password"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-email-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Email"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-email-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Email" соответствует ожидаемому "user.name@gmail.com"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-username-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Username"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-username-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Username" соответствует ожидаемому "username"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-password-input" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "input Password"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-form-password-input" с индексом 0
+INFO     INPUT:input.py:30 Проверка что значение поля "input Password" соответствует ожидаемому "password"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "registration-page-registration-button" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:31 Клик по элементу "button Registration button"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-toolbar-title-text" с индексом 0
+INFO     BASE_ELEMENT:base_element.py:39 Проверка видимости элемента "text Dashboard title"
+INFO     BASE_ELEMENT:base_element.py:23 Получение локатора "dashboard-toolbar-title-text" с индексом 0
